@@ -3,7 +3,7 @@
  *
  * Declaration of the graph class.
  * 
- * Author: <your name here>
+ * Author: Aidan Schiefer
  */
 
 #ifndef _GRAPH_BFS_H
@@ -24,7 +24,9 @@ public:
 	std::vector<int> find_shortest_path(int from, int to);
 
 private:
+    // Data structure to represent our graph
     std::vector<std::vector<int>> directed_graph;
+    // Tracker for total vertex count for DFS implementation
     int vertexCount;
 };
 
