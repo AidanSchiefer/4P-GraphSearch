@@ -24,7 +24,8 @@ public:
 	std::vector<int> find_shortest_path(int from, int to);
 
 private:
-
+    std::vector<std::vector<int>> directed_graph;
+    int vertexCount;
 };
 
 #endif
